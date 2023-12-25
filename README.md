@@ -1,2 +1,2 @@
-# dd0c.updates
-Ansible role for updating systems
+# ansible-role-updates
+Ansible role for automatic updates
