@@ -1,6 +1,6 @@
 ---
 
-- name: Make sure all packages needed are installed
+- name: Make sure all packages needed for updates are installed
   ansible.builtin.apt:
     name: "needrestart"
     state: latest
