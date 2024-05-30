@@ -1,0 +1,17 @@
+---
+
+- name: Run the equivalent of "apt-get update" as a separate step
+  ansible.builtin.apt:
+    update_cache: yes
+
+- name: Make sure all packages needed for updates are installed
+  ansible.builtin.apt:
+    name: "needrestart"
+    state: latest
+
+- name: Upgrade all packages
+  ansible.builtin.apt:
+    name: "*"
+    state: latest
+
+...
