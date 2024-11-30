@@ -1,2 +1,2 @@
-# dd0c.updates
+# updates
 Ansible role for automatic updates
